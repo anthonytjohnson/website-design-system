@@ -1,3 +1,21 @@
+h1 {
+  font-weight: 700;
+  font-size: 26px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 18px;
+  font-family: 'Cabin', sans-serif;
+}
+
+p {
+  font-weight: 400;
+  font-size: 14px;
+  font-family: 'Cabin', sans-serif;
+}
+
 .colors {
   border: 1px solid black;
   padding: 10px;
@@ -42,7 +60,7 @@ li {
   background-color: #FF6663;
 }
 
-.fonts {
+.fonts, .text-styles {
   border: 1px solid black;
   padding: 10px;
   margin-top: 8px;
@@ -85,6 +103,8 @@ li {
 #cabin-italic {
   font-style: italic;
 }
-font-family: 'Cabin', sans-serif;
 
-font-family: 'Roboto Condensed', sans-serif;
+.text-style-list {
+  color: black;
+  width: 50%;
+}
