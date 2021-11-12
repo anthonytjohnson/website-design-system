@@ -41,3 +41,50 @@ li {
 #color-5 {
   background-color: #FF6663;
 }
+
+.fonts {
+  border: 1px solid black;
+  padding: 10px;
+  margin-top: 8px;
+}
+
+.font-list {
+  display: flex;
+}
+
+.font-title {
+  font-size: larger;
+  text-decoration: underline;
+}
+
+.roboto-condensed, .cabin {
+  color: black;
+  width: 50%;
+}
+
+.roboto-condensed {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.cabin {
+  font-family: 'Cabin', sans-serif;
+}
+
+#roboto-condensed-bold {
+  font-weight: bold;
+}
+
+#roboto-condensed-italic {
+  font-style: italic;
+}
+
+#cabin-bold {
+  font-weight: bold;
+}
+
+#cabin-italic {
+  font-style: italic;
+}
+font-family: 'Cabin', sans-serif;
+
+font-family: 'Roboto Condensed', sans-serif;
